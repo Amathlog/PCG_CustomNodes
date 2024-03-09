@@ -1,0 +1,30 @@
+{
+	"FileVersion": 1,
+	"Version": 0.0.1,
+	"FriendlyName": "PCG Custom Nodes",
+	"Description": "Custom nodes to extend PCG, for learning purposes",
+	"Category": "Procedural",
+	"CreatedBy": "Adrien Logut",
+	"CreatedByURL": "https://github.com/amathlog",
+	"DocsURL": "https://github.com/amathlog/PCG_CustomNodes",
+	"SupportURL": "https://github.com/amathlog/ALS-CustomNodes/issues",
+	"EngineVersion": "5.4.0",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PCG_CustomNodes",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PCG",
+			"Enabled": true
+		}
+	]
+}
