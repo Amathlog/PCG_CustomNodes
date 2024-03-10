@@ -1,6 +1,6 @@
 {
 	"FileVersion": 1,
-	"Version": 0.0.1,
+	"Version": 1,
 	"FriendlyName": "PCG Custom Nodes",
 	"Description": "Custom nodes to extend PCG, for learning purposes",
 	"Category": "Procedural",

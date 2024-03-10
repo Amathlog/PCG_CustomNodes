@@ -31,7 +31,7 @@ public:
     bool bClockwise = true;
 };
 
-class FPCGConvexHullElement : public FSimplePCGElement
+class FPCGConvexHullElement : public IPCGElement
 {
 protected:
     virtual bool ExecuteInternal(FPCGContext* Context) const override;

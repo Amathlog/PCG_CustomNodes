@@ -42,7 +42,7 @@ public:
     int32 FixedNumber = true;
 };
 
-class FPCGRandomChoiceElement : public FSimplePCGElement
+class FPCGRandomChoiceElement : public IPCGElement
 {
 protected:
     virtual bool ExecuteInternal(FPCGContext* Context) const override;
